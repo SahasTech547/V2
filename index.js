@@ -20,20 +20,20 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX 
 const path = require('path');
-const asciiArt = `✅ Bhashi Session Verify Complated.`;
+const asciiArt = ``;
 const ownerNumber = ['94786328485']
 
 //--------------------| Bhashi Sesion Output |--------------------//
 
-if (!fs.existsSync(__dirname + '/BHASHI-SESSION/creds.json')) {
-    if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if (!fs.existsSync(__dirname + '/Session/creds.json')) {
+    if(!config.SESSION_ID) return console.log('❎ Bhashi - Please Add Your Session...')
     const sessdata = config.SESSION_ID
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
     filer.download((err, data) => {
         if(err) throw err
-        fs.writeFile(__dirname + '/BHASHI-SESSION/creds.json', data, () => {
+        fs.writeFile(__dirname + '/Session/creds.json', data, () => {
 
-            console.log("✅ Bhashi Session Verify Complated.")
+            console.log("✅ Bhashi - Session Downloading...")
         })
     })
 }
@@ -43,8 +43,8 @@ const port = process.env.PORT || 8000;
 
 async function connectToWA() {
     console.log(asciiArt);
-    console.log("✅ Bhashi Session Accsess Allowd.");
-    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/BHASHI-SESSION/')
+    console.log("✅ Bhashi - Session Download Complated...");
+    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Session/')
     var { version } = await fetchLatestBaileysVersion()
 
     const conn = makeWASocket({
@@ -63,13 +63,13 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ Device Check Complated.')
-            console.log('✅ Pluging Install Complated. ')
-            console.log('✅ Bhashi Sucessfull Conected Your Device.')
+            console.log('✅ Bhashi - Plugin Installing...')
+            console.log('✅ Bhashi - Plugin Install Complated...')
+            console.log('✅ Bhashi - Bhashi Sucessfull Conected Your Device...')
             const path = require('path');
-            fs.readdirSync("./Bhashi Plugin/").forEach((plugin) => {
+            fs.readdirSync("./Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./Bhashi Plugin/" + plugin);
+                    require("./Plugin/" + plugin);
                 }
             });
 
@@ -332,7 +332,7 @@ conn.ev.on('messages.delete', async (message) => {
 }
 
 app.get("/", (req, res) => res.sendFile(require('path').join(__dirname, "./index.html")));
-app.listen(port, () => console.log(`BHASHI-MD SERVER RUNNING: http://localhost:${port}`));
+app.listen(port, () => console.log(`✅ Bhashi - Server Running...`));
 setTimeout(() => {
     connectToWA()
 }, 4000);
