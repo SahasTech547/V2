@@ -67,9 +67,9 @@ async function connectToWA() {
             console.log('✅ Pluging Install Complated. ')
             console.log('✅ Bhashi Sucessfull Conected Your Device.')
             const path = require('path');
-            fs.readdirSync("./Bhashi-Plugin/").forEach((plugin) => {
+            fs.readdirSync("./Bhashi Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./Bhashi-Plugin/" + plugin);
+                    require("./Bhashi Plugin/" + plugin);
                 }
             });
 
