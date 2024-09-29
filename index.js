@@ -20,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX 
 const path = require('path');
-const asciiArt = ``;
+const asciiArt = `✅ Bhashi Session Verify Complated.`;
 const ownerNumber = ['94786328485']
 
 //--------------------| Bhashi Sesion Output |--------------------//
@@ -32,8 +32,8 @@ if (!fs.existsSync(__dirname + '/BHASHI-SESSION/creds.json')) {
     filer.download((err, data) => {
         if(err) throw err
         fs.writeFile(__dirname + '/BHASHI-SESSION/creds.json', data, () => {
- 
-            console.log("✅ 𝖡𝗁𝖺𝗌𝗁𝗂 𝖲𝖾𝗌𝗌𝗂𝗈𝗇 𝖵𝖾𝗋𝗂𝖿𝗂𝖾𝖽.")
+
+            console.log("✅ Bhashi Session Verify Complated.")
         })
     })
 }
@@ -43,7 +43,7 @@ const port = process.env.PORT || 8000;
 
 async function connectToWA() {
     console.log(asciiArt);
-    console.log("✅ 𝖢𝗁𝖾𝗄𝗂𝗇𝗀 𝖸𝗈𝗎𝗋 𝖣𝖾𝗏𝗂𝖼𝖾.");
+    console.log("✅ Bhashi Session Accsess Allowd.");
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/BHASHI-SESSION/')
     var { version } = await fetchLatestBaileysVersion()
 
@@ -63,13 +63,13 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ 𝖯𝗅𝗎𝗀𝗂𝗇𝗌 𝖨𝗇𝗌𝗍𝖺𝗅𝗅𝗂𝗇𝗀.')
-            console.log('✅ 𝖣𝖾𝗏𝗂𝖼𝖾 𝖢𝗁𝖾𝖼𝗄 𝖠𝗇𝖽 𝖯𝗅𝗎𝗀𝗂𝗇𝗌 𝖨𝗇𝗌𝗍𝖺𝗅𝗅 𝖲𝗎𝖼𝖼𝖾𝗌𝗌.')
-            console.log('✅ 𝖡𝗁𝖺𝗌𝗁𝗂 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗒 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝖸𝗈𝗎𝗋 𝖣𝖾𝗏𝗂𝖼𝖾.')
+            console.log('✅ Device Check Complated.')
+            console.log('✅ Pluging Install Complated. ')
+            console.log('✅ Bhashi Sucessfull Conected Your Device.')
             const path = require('path');
-            fs.readdirSync("./BHASHI-COMMANDS/").forEach((plugin) => {
+            fs.readdirSync("./Bhashi-Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./BHASHI-COMMANDS/" + plugin);
+                    require("./Bhashi-Plugin/" + plugin);
                 }
             });
 
@@ -80,7 +80,7 @@ async function connectToWA() {
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Gpqn5T4/image.png` }, caption: up })
 
     //--------------------| Bhashi Settings Input |--------------------//
-          
+
             if (config.ALWAYS_ONLINE === "true") {
                 conn.sendPresenceUpdate('available')
             }
@@ -101,7 +101,7 @@ async function connectToWA() {
         const content = JSON.stringify(mek.message)
         const from = mek.key.remoteJid
 
-      
+
         if (config.ALWAYS_TYPING === "true") {
             await conn.sendPresenceUpdate('composing', from)
         }
@@ -160,7 +160,7 @@ async function connectToWA() {
         }  
 
      //--------------------| Bhashi Auto Voice |--------------------//
-      
+
         if (config.AUTO_VOICE === "true") {
             let {
                 data
@@ -179,9 +179,9 @@ async function connectToWA() {
                 }
             }
         }
-      
+
 //--------------------| Bhashi Anti Bad |--------------------//
-      
+
         if (isGroup && config.ANTI_BAD_WORDS_ENABLED) {
             if (config.ANTI_BAD_WORDS) {
                 const badWords = config.ANTI_BAD_WORDS;
@@ -200,20 +200,20 @@ async function connectToWA() {
                 }
             }
         }
-      
+
 //--------------------| Bhashi Anti Bot |--------------------//
-      
+
 if (isGroup && config.ANTI_BOT === "true") {
     // Check if the sender is another bot (Baileys-based or similar) and is not an admin or owner
     if (!isAdmins && !isOwner && m.isBaileys) {
         console.log('Detected another bot in the group');
-        
+
         // Check if the current bot has admin rights
         if (isBotAdmins) {
             // Delete the bot's message and send a warning message
             await conn.sendMessage(from, { delete: mek.key });
             await conn.sendMessage(from, { text: '🚫 Bot detected and removed. Only admins can add bots to this group.' });
-            
+
             // Remove the bot from the group (this assumes the detected bot is the sender)
             await conn.groupParticipantsUpdate(from, [sender], "remove");
         } else {
@@ -223,9 +223,9 @@ if (isGroup && config.ANTI_BOT === "true") {
         return; // Exit early since a bot was detected and handled
     }
 }
- 
+
 //--------------------| Bhashi Anti Link |--------------------//
-      
+
         if (isGroup && config.ANTI_LINK) {
             // Define patterns for chat.whatsapp.com links
             const chatLinkPattern = /chat\.whatsapp\.com\/(g|gb)\/[A-Z0-9]{5,}/i;
@@ -246,14 +246,14 @@ if (isGroup && config.ANTI_BOT === "true") {
         }
 
 //--------------------| Bhashi Owner React |--------------------//
-       
+
         if(senderNumber.includes("94786328485")){
             if(isReact) return
             m.react("🧑🏻‍💻")
         }    
 
 //--------------------| Bhashi Don't Edit |--------------------//
-      
+
         const events = require('./command')
         const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
         if (isCmd) {
@@ -288,7 +288,7 @@ if (isGroup && config.ANTI_BOT === "true") {
     })
 
 //--------------------| Bhashi Anti Del |--------------------//
-  
+
 conn.ev.on('messages.delete', async (message) => {
     if (config.ANTI_DELETE === "true" && message.remoteJid.endsWith('@g.us')) {
         try {
