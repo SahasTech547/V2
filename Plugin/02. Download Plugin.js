@@ -39,17 +39,24 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `Tatile : ${data.title}
+        let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖲 𝖮 𝖭 𝖦  𝖨 𝖭 𝖥 𝖮 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
 
-Viwes : ${data.views}
-Duration : ${data.timestamp}
-Time Ago : ${data.ago}
-Url : ${data.url}
+*🎬 𝖢𝗁𝖺𝗇𝖾𝗅 :* ${data.author}
+*📻 𝖵𝗂𝗐𝖾𝗌 :* ${data.views}
+*📤 𝖴𝗉𝗅𝗈𝖺𝖽 𝖮𝗇 :* ${data.ago}
+*🖇️ 𝖫𝗂𝗇𝗄 :* ${data.url}
 
-Select An Option.
-1 • Audio File.
-2 • Document File.`;
+乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
 
+*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
+*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.`;
+
+
+
+
+
+
+        
         // Send the initial message and store the message ID
         const sentMsg = await conn.sendMessage(from, {
             document: { url: pdfUrl }, // Path to your PDF file
