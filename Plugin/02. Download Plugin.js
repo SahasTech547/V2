@@ -138,24 +138,24 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 //==============   VIDEO DL   ==============//
 
-        cmd({
-            pattern: "video",
-            desc: "To download videos.",
-            react: "🎬",
-            category: "download",
-            filename: __filename
-        },
-        async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-            try {
-                if (!q) return reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
+cmd({
+    pattern: "video",
+    desc: "To download songs.",
+    react: "🎬",
+    category: "download",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q) return reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
 𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅. ❗`);
 
-                q = convertYouTubeLink(q);
-                const search = await yts(q);
-                const data = search.videos[0];
-                const url = ``;
+        q = convertYouTubeLink(q);
+        const search = await yts(q);
+        const data = search.videos[0];
+        const url = data.url;
 
-                let desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖵 𝖨 𝖣 𝖤 𝖮  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
+        let desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖵 𝖨 𝖣 𝖤 𝖮  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
         
 *1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
 *2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
@@ -163,31 +163,33 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
 
-                // Send the song info with context
-                const sentMsg = await conn.sendMessage(from, {
+        // Send the song info with context
+        const sentMsg = await conn.sendMessage(from, {
 
 
-                    text: desc,
-                    contextInfo: {
+            text: desc,
+            contextInfo: {
 
-                    forwardingScore: 999,
-                    isForwarded: false,
-                    forwardedNewsletterMessageInfo: {
-                    newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
-                    newsletterJid: "120363333519565664@newsletter",
-                    },
-                    externalAdReply: {
-                        title: `Bhashi Video Downloader`,
-                        body: data.title,
-                        thumbnailUrl: data.thumbnail,
-                        sourceUrl: data.url,
-                        mediaType: 1,
-                        renderLargerThumbnail: false
-                        }
-                            }
-                        }, { quoted: mek });
+            forwardingScore: 999,
+            isForwarded: false,
+            forwardedNewsletterMessageInfo: {
+            newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
+            newsletterJid: "120363333519565664@newsletter",
+            },
+            externalAdReply: {
+                title: `Bhashi Video Downloader`,
+                body: data.title,
+                thumbnailUrl: data.thumbnail,
+                sourceUrl: ``,
+                mediaType: 1,
+                renderLargerThumbnail: false
+                }
+                    }
+                }, { quoted: mek });
 
-                const messageID = sentMsg.key.id; // Save the message ID for later reference
+
+
+        const messageID = sentMsg.key.id; // Save the message ID for later reference
 
                 // Listen for the user's response
                 conn.ev.on('messages.upsert', async (messageUpdate) => {
@@ -205,7 +207,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                         await conn.sendMessage(from, { react: { text: '📥', key: mek.key } });
 
                         if (messageType === '1' || messageType === '2') {
-                            const down = await fg.yta(url);
+                            const down = await fg.ytv(url);
                             const downloadUrl = down.dl_url;
 
                             // React to the upload (sending the file)
@@ -220,7 +222,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                                 await conn.sendMessage(from, {
                                     document: { url: downloadUrl },
                                     mimetype: "video/mp4",
-                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp4`,
+                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp3`,
                                     caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`
                                 }, { quoted: mek });
@@ -235,7 +237,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                             await conn.sendMessage(from, { react: { text: '❓', key: mek.key } });
                             reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
 𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇. ❗`);
-}
+                        }
                     }
                 });
 
@@ -293,7 +295,7 @@ cmd({
 𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖴𝗋𝗅. ❗`);
 
       const desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖥 𝖡  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
-        
+
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖧𝖣 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖲𝖣 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
