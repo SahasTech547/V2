@@ -65,10 +65,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             newsletterJid: "120363333519565664@newsletter",
             },
             externalAdReply: {
-                title: data.title,
-                body: ``,
+                title: `Bhashi Song Downloader`,
+                body: data.title,
                 thumbnailUrl: data.thumbnail,
-                sourceUrl: data.url,
+                sourceUrl: ``,
                 mediaType: 1,
                 renderLargerThumbnail: false
                 }
@@ -153,7 +153,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 q = convertYouTubeLink(q);
                 const search = await yts(q);
                 const data = search.videos[0];
-                const url = data.url;
+                const url = ``;
 
                 let desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖵 𝖨 𝖣 𝖤 𝖮  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
         
@@ -177,8 +177,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     newsletterJid: "120363333519565664@newsletter",
                     },
                     externalAdReply: {
-                        title: data.title,
-                        body: ``,
+                        title: `Bhashi Video Downloader`,
+                        body: data.title,
                         thumbnailUrl: data.thumbnail,
                         sourceUrl: data.url,
                         mediaType: 1,
@@ -259,8 +259,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 
 
-
-
+//==============   NOT WORKING   ==============//
 
 //==============   FACEBOOK DL   ==============//
 
@@ -316,10 +315,10 @@ cmd({
           },
           externalAdReply: {
               title: `Bhashi FB Downloader`,
-              body: ``,
+              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: `https://scontent.xx.fbcdn.net/v/t39.30808-6/462764198_1069447598136132_2931618262689600288_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHF_DdTFVKCMk4o9b4moBmBfO2n9KL2AN187af0ovYA3S3rE6-rviTKj0Xs3E2cDLPFIUL9Qempb874fyKOG9SS&_nc_ohc=mhCTkQH4HkoQ7kNvgEIPxAj&_nc_ht=scontent.xx&_nc_gid=AdAH9nyr7KupSEtPvuZ6p5q&oh=00_AYDDfmktwQmVzMPqB5v7E0rmaz0Jy1Vo27yDRm1BzgAURg&oe=670ED604`,
 
-              sourceUrl:  `https://www.facebook.com`,
+              sourceUrl:  ``,
               mediaType: 1,
               renderLargerThumbnail: false
               }
@@ -384,6 +383,8 @@ const messageID = sentMsg.key.id; // Save the message ID for later reference
     }
 });
 
+
+//==============   TIK TOK DL   ==============//
 
 
 
