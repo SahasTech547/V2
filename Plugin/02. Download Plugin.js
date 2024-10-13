@@ -459,7 +459,6 @@ cmd(
     },
 );
 
-//==============   NOT WORKING   ==============//
 
 //==============   FACEBOOK DL   ==============//
 
@@ -580,7 +579,7 @@ cmd(
                                     {
                                     
                                         video: { url: hd },
-                                        caption: `‎ ‎𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  *( 4 8 0* 𝗉 *)*
+                                        caption: `‎ ‎𝖥 𝖡  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉 )
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
@@ -593,7 +592,7 @@ cmd(
                                     from,
                                     {
                                         video: { url: sd },
-                                        caption: `‎ ‎𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  *( 7 2 0* 𝗉 *)*
+                                        caption: `‎ ‎𝖥 𝖡  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉 )
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
@@ -632,4 +631,147 @@ cmd(
     },
 );
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //==============   TIK TOK DL   ==============//
+
+cmd({
+    pattern: "tt",
+    alias: ["tiktok"],
+    react: '🎵',
+    desc: "Download TikTok videos",
+    category: "download",
+    use: '.tt <tiktok link>',
+    filename: __filename
+}, async (conn, mek, m, { from, args, reply, pushname }) => {
+    try {
+        const senderNumber = m.sender;
+        const isGroup = m.isGroup || false;
+
+        // Check access permissions
+        if (!checkAccess(senderNumber, isGroup)) {
+            if (blacklistedJIDs.includes(senderNumber)) {
+                return reply("*🚫 You are blacklisted. Access denied.*");
+            } else {
+                return reply("*😢 Access denied. You don't have permission to use this command.🎁 Change Bot Mode!*");
+            }
+        }
+
+        // Get the TikTok URL from args
+        const q = args.join(" ");
+        if (!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗");
+
+        // Watermark message
+        let wm = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
+
+*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
+*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+
+        const sentMessage = await conn.sendMessage(
+            from,
+            {
+                text: wm,
+                contextInfo: {
+                    forwardingScore: 999,
+                    isForwarded: false,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
+                        newsletterJid:
+                            "120363333519565664@newsletter",
+                    },
+                        externalAdReply: {
+                              title: `Bhashi Tik Tok Downloader`,
+                              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
+                              thumbnailUrl: `https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/348570787_801138717799708_4000097968399646220_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFVo3ExKnIkdIMrPA_un_HuEk2BiKbs4nESTYGIpuzicYhb7_P8-kYhfxc2j0FvSZ_qoE-he8h7cvy1JgbnqlrZ&_nc_ohc=nBzkctrHeFcQ7kNvgGcWRzd&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=AzVht253vu44kuofBwyas_z&oh=00_AYBQ3zecilTzgE1G1S4NXq5VcjDlLYw1PRzI5Wi8jVuAjw&oe=6711DE54`,
+
+                              sourceUrl:  ``,
+                              mediaType: 1,
+                              renderLargerThumbnail: false
+                    },
+                    },
+                        },
+                        { quoted: mek },
+                    );
+
+
+        
+
+        // Perform TikTok download using a hypothetical tiktokdl function
+        let response = await tiktokdl(q);
+        let { video, music } = response;
+
+        // Send initial message with options
+        
+
+
+        // Listen for user's reply
+        conn.ev.on("messages.upsert", async (messageUpsert) => {
+            const msg = messageUpsert.messages[0];
+            if (!msg.message || !msg.message.extendedTextMessage) return;
+
+            const userReply = msg.message.extendedTextMessage.text.trim();
+            const messageContext = msg.message.extendedTextMessage.contextInfo;
+
+            // Check if the reply is to the previously sent prompt
+            if (messageContext && messageContext.stanzaId === sentMessage.key.id) {
+                if (userReply === '1') {
+                    // Send the video
+                    await conn.sendMessage(from, { 
+                        video: { url: video }, 
+                        caption: `‎ ‎𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉  )
+                            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`
+                        
+                    }, { quoted: msg });
+                } else if (userReply === '2') {
+                    // Send the audio
+                    await conn.sendMessage(from, { 
+                        audio: { url: music }, 
+                        mimetype: "audio/mpeg" 
+                    }, { quoted: msg });
+                } else {
+                    await conn.sendMessage(from, { 
+                        text: "𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇 `1 𝖮𝗋 2` ❗" 
+                    }, { quoted: msg });
+                }
+            }
+        });
+
+        // Send a reaction
+
+        } catch (e) {
+                    console.error("", e);
+                    reply(
+                        "𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗",
+
+);
+        }
+    },
+);
