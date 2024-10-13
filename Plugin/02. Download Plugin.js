@@ -174,8 +174,7 @@ cmd(
     ) => {
         try {
             if (!q)
-                return reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
-𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅. ❗`);
+                return reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖲𝗈𝗇𝗀 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅` ❗");
 
             q = q;
             const search = await yts(q);
@@ -236,7 +235,7 @@ cmd(
                 if (isReplyToSentMsg) {
                     // React to the user's reply (the "1" or "2" message)
                     await conn.sendMessage(from, {
-                        react: { text: "📥", key: mek.key },
+                        react: { text: "", key: mek.key },
                     });
 
                     if (messageType === "1" || messageType === "2") {
@@ -245,7 +244,7 @@ cmd(
 
                         // React to the upload (sending the file)
                         await conn.sendMessage(from, {
-                            react: { text: "📤", key: mek.key },
+                            react: { text: "", key: mek.key },
                         });
 
                         if (messageType === "1") {
@@ -277,7 +276,7 @@ cmd(
 
                         // React to the successful completion of the task
                         await conn.sendMessage(from, {
-                            react: { text: "✅", key: mek.key },
+                            react: { text: "", key: mek.key },
                         });
 
                         console.log("Response sent successfully");
@@ -286,8 +285,7 @@ cmd(
                         await conn.sendMessage(from, {
                             react: { text: "❓", key: mek.key },
                         });
-                        reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
-𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇. ❗`);
+                        reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 `𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇 1 𝖮𝗋 2` ❗");
                     }
                 }
             });
@@ -339,8 +337,7 @@ cmd(
     ) => {
         try {
             if (!q)
-                return reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
-𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅. ❗`);
+                return reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖵𝗂𝖽𝖾𝗈 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅` ❗");
 
             q = q;
             const search = await yts(q);
@@ -401,7 +398,7 @@ cmd(
                 if (isReplyToSentMsg) {
                     // React to the user's reply (the "1" or "2" message)
                     await conn.sendMessage(from, {
-                        react: { text: "📥", key: mek.key },
+                        react: { text: "", key: mek.key },
                     });
 
                     if (messageType === "1" || messageType === "2") {
@@ -410,7 +407,7 @@ cmd(
 
                         // React to the upload (sending the file)
                         await conn.sendMessage(from, {
-                            react: { text: "📤", key: mek.key },
+                            react: { text: "", key: mek.key },
                         });
 
                         if (messageType === "1") {
@@ -442,7 +439,7 @@ cmd(
 
                         // React to the successful completion of the task
                         await conn.sendMessage(from, {
-                            react: { text: "✅", key: mek.key },
+                            react: { text: "", key: mek.key },
                         });
 
                         console.log("Response sent successfully");
@@ -451,8 +448,7 @@ cmd(
                         await conn.sendMessage(from, {
                             react: { text: "❓", key: mek.key },
                         });
-                        reply(`𝖴𝗇𝖽𝗂𝖿𝖾𝗇𝖽𝖾𝖽. ❗
-𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇. ❗`);
+                        reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 `𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇 1 𝖮𝗋 2` ❗");
                     }
                 }
             });
@@ -473,12 +469,12 @@ async function socialMediaDownload(url) {
     let endpoint;
     if (url.includes("facebook.com") || url.includes("fb.watch")) {
         endpoint = `${baseUrl}/api/fdown?url=${encodeURIComponent(url)}`;
-    } else if (url.includes("mediafire.com")) {
-        endpoint = `${baseUrl}/api/mediafiredl?url=${encodeURIComponent(url)}`;
-    } else if (url.includes("twitter.com")) {
-        endpoint = `${baseUrl}/api/twitter/dl?url=${encodeURIComponent(url)}`;
-    } else {
-        throw new Error("Unsupported URL");
+        } else if (url.includes("mediafire.com")) {
+            endpoint = `${baseUrl}/api/mediafiredl?url=${encodeURIComponent(url)}`;
+        } else if (url.includes("twitter.com")) {
+            endpoint = `${baseUrl}/api/twitter/dl?url=${encodeURIComponent(url)}`;
+        } else {
+        throw new Error("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝖴𝗋𝗅` ❗");
     }
     const response = await axios.get(endpoint);
     return response.data;
@@ -516,7 +512,7 @@ cmd(
             }
 
             if (!q)
-                return await reply("*🚫 Please provide a Facebook URL! 🚫*");
+                return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝖴𝗋𝗅` ❗");
 
 
             const response = await socialMediaDownload(q);
@@ -579,11 +575,16 @@ cmd(
                         ) {
                             // Send the selected video quality
                             if (userReply === "1" && hd) {
-                                await conn.sendMessage(
+                                await conn.sendMessage( 
                                     from,
                                     {
+                                    
                                         video: { url: hd },
-                                        caption: "*Here's your HD video! 🎥*",
+                                        caption: `‎ ‎𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  *( 4 8 0* 𝗉 *)*
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                        
                                     },
                                     { quoted: mek },
                                 );
@@ -592,40 +593,40 @@ cmd(
                                     from,
                                     {
                                         video: { url: sd },
-                                        caption: "*Here's your SD video! 📹*",
+                                        caption: `‎ ‎𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  *( 7 2 0* 𝗉 *)*
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
                                     },
                                     { quoted: mek },
+
+                                    
+                                     
+
+                                    
                                 );
                             } else {
                                 reply(
-                                    "Invalid choice or selected quality not available.",
+                                    "𝖯𝗅𝖾𝖺𝗌𝖾 𝖤𝗇𝗍𝖾𝗋 𝖵𝖺𝗅𝗂𝖽 𝖮𝗉𝗍𝗂𝗈𝗇 `1 𝖮𝗋 2` ❗",
                                 );
                             }
                         }
                     });
                 } else {
-                    reply("No video URL found in the response.");
-                }
+                    reply("No Video URL Found in the Response.");
 
-                if (audio) {
-                    console.log("Sending audio message");
-                    await conn.sendMessage(
-                        from,
-                        { audio: { url: audio }, mimetype: "audio/mpeg" },
-                        { quoted: mek },
-                    );
+                    
                 }
             } else {
-                reply("Failed to fetch video data.");
-            }
+                reply("Failed to Fetch Video Data.");
+                }
 
-            return await conn.sendMessage(from, {
-                react: { text: "✅", key: mek.key },
-            });
+            
+            
         } catch (e) {
-            console.error("Detailed error:", e);
+            console.error("Detailed Error:", e);
             reply(
-                `❌ Error occurred while processing your request! ❌\nError details: ${e.message}`,
+                `${e.message}`,
             );
         }
     },
