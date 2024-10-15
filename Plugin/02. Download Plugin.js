@@ -181,13 +181,19 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖲 𝖮 𝖭 𝖦  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
+            let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖲 𝖮 𝖭 𝖦  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+
+🎬 𝖢𝗁𝖺𝗇𝖾𝗅 : ${data.author.name}
+⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
+📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
+  
+乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
 
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
-‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -203,7 +209,7 @@ cmd(
                         },
                         externalAdReply: {
                             title: `Bhashi Song Downloader`,
-                            body: data.title,
+                            body: `${data.title} : Powerd By Bhashi Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -255,7 +261,7 @@ cmd(
                                     audio: { url: downloadUrl },
                                     mimetype: "audio/mpeg",
                                     caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
                                 },
                                 { quoted: mek },
                             );
@@ -268,7 +274,7 @@ cmd(
                                     mimetype: "audio/mpeg",
                                     fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp3`,
                                     caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
                                 },
                                 { quoted: mek },
                             );
@@ -291,7 +297,7 @@ cmd(
             });
         } catch (e) {
             console.log(e);
-            reply(`An Error Occurred: ${e.message}`);
+            reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖲𝗈𝗇𝗀 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅` ❗");
         }
     },
 );
@@ -344,13 +350,20 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖵 𝖨 𝖣 𝖤 𝖮  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
+            let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖵 𝖨 𝖣 𝖤 𝖮  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
 
-*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
-*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
-‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+🎬 𝖢𝗁𝖺𝗇𝖾𝗅 : ${data.author.name}
+⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
+📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
+
+
+乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+
+1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
+2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -366,7 +379,7 @@ cmd(
                         },
                         externalAdReply: {
                             title: `Bhashi Video Downloader`,
-                            body: data.title,
+                            body: `${data.title} : Powerd By Bhashi Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -417,8 +430,10 @@ cmd(
                                 {
                                     video: { url: downloadUrl },
                                     mimetype: "video/mp4",
-                                    caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                    caption: `‎ ‎𝖸 𝖳  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉  )
+                            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
                                 },
                                 { quoted: mek },
                             );
@@ -429,9 +444,9 @@ cmd(
                                 {
                                     document: { url: downloadUrl },
                                     mimetype: "video/mp4",
-                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp3`,
+                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp4`,
                                     caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
                                 },
                                 { quoted: mek },
                             );
@@ -454,7 +469,7 @@ cmd(
             });
         } catch (e) {
             console.log(e);
-            reply(`An Error Occurred: ${e.message}`);
+            reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖵𝗂𝖽𝖾𝗈 𝖳𝖺𝗍𝗂𝗅𝖾 𝖮𝗋 𝖴𝗋𝗅` ❗");
         }
     },
 );
@@ -520,17 +535,23 @@ cmd(
                 const { hd, sd, audio } = response.data;
 
                 if (hd || sd) {
-                    
-                    // Prompt user to select HD or SD
-                    const videoMessage = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖥 𝖡  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
 
-1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖧𝖣 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
-2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖲𝖣 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
+                    // Prompt user to select HD or SD
+                    const videoMessage = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖥 𝖡  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+
+🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
+🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.facebook.com
+
+
+乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+
+1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾.
+2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖲𝖣 𝖳𝗒𝗉𝖾.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
 
-                
+
 
                     const sentMessage = await conn.sendMessage(
                         from,
@@ -546,7 +567,7 @@ cmd(
                                 },
                                     externalAdReply: {
                                           title: `Bhashi FB Downloader`,
-                                          body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
+                                          body: `Undifended : Powerd By Bhashi Apk Information Search Engine`,
                                           thumbnailUrl: `https://scontent.xx.fbcdn.net/v/t39.30808-6/462764198_1069447598136132_2931618262689600288_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHF_DdTFVKCMk4o9b4moBmBfO2n9KL2AN187af0ovYA3S3rE6-rviTKj0Xs3E2cDLPFIUL9Qempb874fyKOG9SS&_nc_ohc=mhCTkQH4HkoQ7kNvgEIPxAj&_nc_ht=scontent.xx&_nc_gid=AdAH9nyr7KupSEtPvuZ6p5q&oh=00_AYDDfmktwQmVzMPqB5v7E0rmaz0Jy1Vo27yDRm1BzgAURg&oe=670ED604`,
 
                                           sourceUrl:  ``,
@@ -577,13 +598,13 @@ cmd(
                                 await conn.sendMessage( 
                                     from,
                                     {
-                                    
+
                                         video: { url: hd },
                                         caption: `‎ ‎𝖥 𝖡  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉 )
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
-                                        
+
                                     },
                                     { quoted: mek },
                                 );
@@ -599,10 +620,10 @@ cmd(
                                     },
                                     { quoted: mek },
 
-                                    
-                                     
 
-                                    
+
+
+
                                 );
                             } else {
                                 reply(
@@ -614,18 +635,18 @@ cmd(
                 } else {
                     reply("No Video URL Found in the Response.");
 
-                    
+
                 }
             } else {
                 reply("Failed to Fetch Video Data.");
                 }
 
-            
-            
+
+
         } catch (e) {
             console.error("Detailed Error:", e);
             reply(
-                `${e.message}`,
+                "𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝖴𝗋𝗅` ❗",
             );
         }
     },
@@ -685,13 +706,19 @@ cmd({
         if (!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗");
 
         // Watermark message
-        let wm = `乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖣 𝖮 𝖶 𝖭  𝖮 𝖯 𝖳 𝖨 𝖮 𝖭
+        let wm = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
 
-*1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
-*2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 :* 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
-‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
+🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.tiktok.com
+
+
+乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+
+1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
+2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
 
         const sentMessage = await conn.sendMessage(
             from,
@@ -707,7 +734,7 @@ cmd({
                     },
                         externalAdReply: {
                               title: `Bhashi Tik Tok Downloader`,
-                              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
+                              body: `Undifended : Powerd By Bhashi Tiktok Information Search Engine`,
                               thumbnailUrl: `https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/348570787_801138717799708_4000097968399646220_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFVo3ExKnIkdIMrPA_un_HuEk2BiKbs4nESTYGIpuzicYhb7_P8-kYhfxc2j0FvSZ_qoE-he8h7cvy1JgbnqlrZ&_nc_ohc=nBzkctrHeFcQ7kNvgGcWRzd&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=AzVht253vu44kuofBwyas_z&oh=00_AYBQ3zecilTzgE1G1S4NXq5VcjDlLYw1PRzI5Wi8jVuAjw&oe=6711DE54`,
 
                               sourceUrl:  ``,
@@ -720,14 +747,14 @@ cmd({
                     );
 
 
-        
+
 
         // Perform TikTok download using a hypothetical tiktokdl function
         let response = await tiktokdl(q);
         let { video, music } = response;
 
         // Send initial message with options
-        
+
 
 
         // Listen for user's reply
@@ -748,7 +775,7 @@ cmd({
                             ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
 > ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`
-                        
+
                     }, { quoted: msg });
                 } else if (userReply === '2') {
                     // Send the audio
@@ -766,8 +793,8 @@ cmd({
 
         // Send a reaction
 
-        } catch (e) {
-                    console.error("", e);
+                    } catch (e) {
+console.error("Error", e);
                     reply(
                         "𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗",
 
@@ -775,3 +802,265 @@ cmd({
         }
     },
 );
+
+
+
+
+
+        
+
+
+
+
+//==============   GDRIVE DL   ==============//
+
+function formatFileSize(bytes) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+// Google Drive Downloader with size limit (e.g., 100MB limit)
+const MAX_DOWNLOAD_SIZE = 500 * 1024 * 1024; // 100 MB
+
+cmd({
+    pattern: "gdrive",
+    alias: ["googledrive"],
+    react: '🎗️',
+    desc: "Download Google Drive files",
+    category: "download",
+    filename: __filename
+}, async (conn, mek, m, { from, q, pushname }) => {
+    if (!q || !q.startsWith("https://")) {
+        return conn.sendMessage(from, { text: "𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖦𝖽𝗋𝗂𝗏𝖾 𝖴𝗋𝗅` ❗" }, { quoted: mek });
+    }
+
+    const data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${encodeURIComponent(q)}`);
+    const fileInfo = data.data || data;
+                                                  // Send the song info with context
+                                                  const downloadingMsg = await conn.sendMessage(
+                                                      from,
+                                                      {
+                                                          text: `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖦 𝖣 𝖱 𝖨 𝖵 𝖤  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+
+📁 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${fileInfo.fileSize}
+🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.gdrive.com
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                                          contextInfo: {
+                                                              forwardingScore: 999,
+                                                              isForwarded: false,
+                                                              forwardedNewsletterMessageInfo: {
+                                                                  newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
+                                                                  newsletterJid: "120363333519565664@newsletter",
+                                                              },
+                                                              externalAdReply: {
+                                                                  title: `Bhashi Gdrive Downloader`,
+                                                                  body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By Bhashi Gdrive Information Search Engine`,
+                                                                  thumbnailUrl: `https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/463015953_1071579474589611_6711394064225755201_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHSbKBeAwrlZZhwPktYS9CL0HE2HwPk2MbQcTYfA-TYxm4MsnyFIrqekTg-Qi64dnaAhSVS1JvKwoWZT9LTk7rN&_nc_ohc=w7f7ObhjbGgQ7kNvgFle47F&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=AEV-oItO4u1kBKqgS87-VBu&oh=00_AYClrCG_4lM7Ua3OBD9hzyHH4fI__jNkFv5DFCUCNhmxYQ&oe=6712948F`,
+                                                                  sourceUrl: ``,
+                                                                  mediaType: 1,
+                                                                  renderLargerThumbnail: false, 
+        
+
+
+          },
+          },
+              },
+              { quoted: mek },
+          );
+ 
+        
+        
+
+    try {
+        const senderNumber = m.sender;
+        const isGroup = m.isGroup || false;
+
+        // Check access permissions
+        if (!checkAccess(senderNumber, isGroup)) {
+            if (blacklistedJIDs.includes(senderNumber)) {
+                return reply("*🚫 You are blacklisted. Access denied.*");
+            } else {
+                return reply("*😢 Access denied. You don't have permission to use this command.🎁 Change Bot Mode!*");
+            }
+        }
+
+        const data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${encodeURIComponent(q)}`);
+        const fileInfo = data.data || data;
+
+        // Check if file size is available and handle accordingly
+        const fileSize = fileInfo.fileSize || 0; // Default to 0 if fileSize is not present
+        const MAX_DOWNLOAD_SIZE = 500 * 1024 * 1024; // 500 MB
+
+        if (fileSize > MAX_DOWNLOAD_SIZE) {
+            await conn.sendMessage(from, { text: `⚠️ The file size is too large. Maximum allowed size is 500 MB. The provided file is ${formatFileSize(fileSize)}.` }, { quoted: mek });
+            return await conn.sendMessage(from, { react: { text: "⚠️", key: mek.key } });
+        }
+
+        const caption = `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+        await conn.sendMessage(from, { 
+            document: { url: fileInfo.download || fileInfo.link || fileInfo.url }, 
+            fileName: fileInfo.fileName || fileInfo.title, 
+            mimetype: fileInfo.mimeType || fileInfo.file_type,
+            caption: caption
+        }, { quoted: mek });
+
+    
+
+
+
+        await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
+                                    
+    } catch (error) {
+        console.error('❌ Error in Google Drive downloader:', error);
+        const errorMessage = error.response && error.response.status === 404 
+            ? '❌ Error: The requested file could not be found. Please check the URL and try again.'
+            : `❌ An error occurred: ${error.message}`;
+
+
+await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });
+        await conn.sendMessage(from, { react: { text: "❌", key: mek.key } });
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cmd({
+    pattern: "apk",
+    desc: "Fetch APK details and send APK file.",
+    category: "apk",
+    react: "📦",
+    filename: __filename
+},
+async (conn, mek, m, { from, reply, q, pushname }) => {
+    try {
+                const senderNumber = m.sender;
+        const isGroup = m.isGroup || false;
+
+        // Check access permissions
+        if (!checkAccess(senderNumber, isGroup)) {
+            if (blacklistedJIDs.includes(senderNumber)) {
+                return reply("*🚫 You are blacklisted. Access denied.*");
+            } else {
+                return reply("*😢 Access denied. You don't have permission to use this command.🎁 Change Bot Mode!*");
+            }
+        }
+
+        if (!q) {
+            return reply("Please provide a package name to search for. Example: `.apk com.whatsapp`");
+        }
+
+        const apkurl = `https://prabath-md-api.up.railway.app/api/apkdl?q=${q}&apikey=${sai}`;
+        const response = await axios.get(apkurl);
+        const data = response.data;
+
+        if (!data || !data.data) {
+            return reply("Error: Unable to fetch APK details.");
+        }
+
+        const apkData = data.data;
+        const apkIcon = apkData.icon;
+        const apkName = apkData.name;
+        const apkPackage = apkData.package;
+        const apkLastUpdate = apkData.lastup;
+        const apkSize = apkData.size;
+        const apkDownloadLink = apkData.dllink;
+
+        await conn.sendMessage(from, {
+            image: { url: apkIcon },
+
+
+
+
+
+                text: `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖠 𝖯 𝖪  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣 𝖤 𝖱
+
+📁 𝖭𝖺𝗆𝖾 : ${apkName}
+📻 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${apkSize} MB
+📆 𝖫𝖺𝗌𝗍 𝖴𝗉𝖽𝖺𝗍𝖾 : ${apkLastUpdate}
+🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.playstore.com
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
+> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                contextInfo: {
+                    forwardingScore: 999,
+                    isForwarded: false,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
+                        newsletterJid: "120363333519565664@newsletter",
+                    },
+                    externalAdReply: {
+                        title: `Bhashi Application Downloader`,
+                        body: `${apkName} : Powerd By Bhashi Apk Information Search Engine`,
+                        thumbnailUrl: apkData.icon,
+                        sourceUrl: ``,
+                        mediaType: 1,
+                        renderLargerThumbnail: false,
+
+        },
+                },
+            },
+            { quoted: mek },
+        );
+
+
+
+
+
+
+
+        const filePath = path.join(__dirname, `${apkPackage}.apk`);
+
+        const apkResponse = await axios({
+            url: apkDownloadLink,
+            method: 'GET',
+            responseType: 'stream'
+        });
+
+        const writer = fs.createWriteStream(filePath);
+
+        apkResponse.data.pipe(writer);
+
+        writer.on('error', (err) => {
+            console.error(`File write error: ${err.message}`);
+            reply(`Error: ${err.message}`);
+        });
+
+        await new Promise((resolve, reject) => {
+            writer.on('finish', resolve);
+            writer.on('error', reject);
+        });
+
+        await conn.sendMessage(from, {
+            document: { url: filePath },
+            mimetype: 'application/vnd.android.package-archive',
+            fileName: `${apkName}.apk`,
+            caption: `ʙʜᴀꜱʜɪ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛`,
+            footer: 'ʙʜᴀꜱʜɪ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛'
+        }, { quoted: mek });
+
+        fs.unlinkSync(filePath);
+
+    } catch (e) {
+        console.error(e);
+        reply(`Error: ${e.message}`);
+    }
+});
