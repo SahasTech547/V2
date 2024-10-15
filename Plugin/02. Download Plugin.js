@@ -947,7 +947,7 @@ cmd({
     pattern: "apk",
     desc: "Fetch APK details and send APK file.",
     category: "apk",
-    react: "📦",
+    react: "📥",
     filename: __filename
 },
 async (conn, mek, m, { from, reply, q, pushname }) => {
@@ -965,7 +965,7 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
         }
 
         if (!q) {
-            return reply("Please provide a package name to search for. Example: `.apk com.whatsapp`");
+            return reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖠𝗉𝗉𝗅𝗂𝖼𝖺𝗍𝗂𝗈𝗇 𝖭𝖺𝗆𝖾` ❗");
         }
 
         const apkurl = `https://prabath-md-api.up.railway.app/api/apkdl?q=${q}&apikey=${sai}`;
@@ -973,7 +973,7 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
         const data = response.data;
 
         if (!data || !data.data) {
-            return reply("Error: Unable to fetch APK details.");
+            return reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖠𝗉𝗉𝗅𝗂𝖼𝖺𝗍𝗂𝗈𝗇 𝖭𝖺𝗆𝖾` ❗");
         }
 
         const apkData = data.data;
