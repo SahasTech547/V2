@@ -947,7 +947,7 @@ cmd({
     pattern: "apk",
     desc: "Fetch APK details and send APK file.",
     category: "apk",
-    react: "📥",
+    react: "🔎",
     filename: __filename
 },
 async (conn, mek, m, { from, reply, q, pushname }) => {
