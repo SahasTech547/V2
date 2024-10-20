@@ -1,9 +1,31 @@
-//Owner Commands
-
-const { cmd } = require('../command');
-const { exec } = require('child_process');
-const config = require('../config');
-const {sleep} = require('../lib/functions')
+const axios = require("axios");
+const fs = require("fs").promises; // Use fs.promises for async file operations
+const whois = require("whois");
+const { tiktokdl } = require("tiktokdl");
+const path = require("path");
+const config = require("../config");
+const zxcvbn = require("zxcvbn");
+const crypto = require("crypto");
+const dyluxApi = require("api-dylux");
+const cheerio = require("cheerio");
+const https = require("https");
+const { pipeline } = require("stream");
+const { promisify } = require("util");
+const streamPipeline = promisify(pipeline);
+const NineGag = require("9gag");
+const Scraper = NineGag.Scraper;
+const { Buffer } = require("buffer");
+const os = require("os");
+const {
+    getBuffer,
+    getGroupAdmins,
+    getRandom,
+    h2k,
+    isUrl,
+    Json,
+    fetchJson,
+    runtime,
+    sleep,
 
 // 1. Shutdown Bot
 cmd({
