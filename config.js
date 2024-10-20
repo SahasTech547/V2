@@ -5,7 +5,7 @@ module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "vS5iQLwS#VZhkc92RDmlhubborV48kFp97ozw_A2cr07PulvpAsQ",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "",
+  MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
@@ -27,8 +27,8 @@ module.exports = {
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "🪄BHASHI",
-  author: process.env.author || "BHASHI x VISHWA",
+  packname: process.env.packname || "SAHAS TECH",
+  author: process.env.author || "SAHAS TECH",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
@@ -47,7 +47,7 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `Bhashi Conected` ,
+  START_MSG: process.env.START_MSG || `SAHAS-MD Conected` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",

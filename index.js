@@ -21,19 +21,19 @@ const { File } = require('megajs')
 const prefix = config.PREFIX 
 const path = require('path');
 const asciiArt = ``;
-const ownerNumber = ['94786328485']
+const ownerNumber = ['94718913389']
 
-//--------------------| Bhashi Sesion Output |--------------------//
+//--------------------| SAHAS-MD Sesion Output |--------------------//
 
 if (!fs.existsSync(__dirname + '/Session/creds.json')) {
-    if(!config.SESSION_ID) return console.log('❎ Bhashi - Please Add Your Session...')
+    if(!config.SESSION_ID) return console.log('❎ SAHAS-MD - Please Add Your Session...')
     const sessdata = config.SESSION_ID
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
     filer.download((err, data) => {
         if(err) throw err
         fs.writeFile(__dirname + '/Session/creds.json', data, () => {
 
-            console.log("✅ Bhashi - Session Downloading...")
+            console.log("✅ SAHAS-MD - Session Downloading...")
         })
     })
 }
@@ -43,7 +43,7 @@ const port = process.env.PORT || 8000;
 
 async function connectToWA() {
     console.log(asciiArt);
-    console.log("✅ Bhashi - Session Download Complated...");
+    console.log("✅ SAHAS-MD - Session Download Complated...");
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Session/')
     var { version } = await fetchLatestBaileysVersion()
 
@@ -63,9 +63,9 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ Bhashi - Plugin Installing...')
-            console.log('✅ Bhashi - Plugin Install Complated...')
-            console.log('✅ Bhashi - Bhashi Sucessfull Conected Your Device...')
+            console.log('✅ SAHAS-MD - Plugin Installing...')
+            console.log('✅ SAHAS-MD - Plugin Install Complated...')
+            console.log('✅ SAHAS-MD - Bhashi Sucessfull Conected Your Device...')
             const path = require('path');
             fs.readdirSync("./Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -79,7 +79,7 @@ async function connectToWA() {
             conn.groupAcceptInvite(inviteCode);
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Gpqn5T4/image.png` }, caption: up })
 
-    //--------------------| Bhashi Settings Input |--------------------//
+    //--------------------| SAHAS-MD Settings Input |--------------------//
 
             if (config.ALWAYS_ONLINE === "true") {
                 conn.sendPresenceUpdate('available')
@@ -159,7 +159,7 @@ async function connectToWA() {
             }
         }  
 
-     //--------------------| Bhashi Auto Voice |--------------------//
+     //--------------------| SAHAS-MD Auto Voice |--------------------//
 
         if (config.AUTO_VOICE === "true") {
             let {
@@ -180,7 +180,7 @@ async function connectToWA() {
             }
         }
 
-//--------------------| Bhashi Anti Bad |--------------------//
+//--------------------| SAHAS-MD Anti Bad |--------------------//
 
         if (isGroup && config.ANTI_BAD_WORDS_ENABLED) {
             if (config.ANTI_BAD_WORDS) {
@@ -201,7 +201,7 @@ async function connectToWA() {
             }
         }
 
-//--------------------| Bhashi Anti Bot |--------------------//
+//--------------------| SAHAS-MD Anti Bot |--------------------//
 
 if (isGroup && config.ANTI_BOT === "true") {
     // Check if the sender is another bot (Baileys-based or similar) and is not an admin or owner
@@ -224,7 +224,7 @@ if (isGroup && config.ANTI_BOT === "true") {
     }
 }
 
-//--------------------| Bhashi Anti Link |--------------------//
+//--------------------| SAHAS-MD Anti Link |--------------------//
 
         if (isGroup && config.ANTI_LINK) {
             // Define patterns for chat.whatsapp.com links
@@ -245,7 +245,7 @@ if (isGroup && config.ANTI_BOT === "true") {
             }
         }
 
-//--------------------| Bhashi Owner React |--------------------//
+//--------------------| SAHAS-MD Owner React |--------------------//
 
         if(senderNumber.includes("94786328485")){
             if(isReact) return
@@ -287,7 +287,7 @@ if (isGroup && config.ANTI_BOT === "true") {
         });
     })
 
-//--------------------| Bhashi Anti Del |--------------------//
+//--------------------| SAHAS-MD Anti Del |--------------------//
 
 conn.ev.on('messages.delete', async (message) => {
     if (config.ANTI_DELETE === "true" && message.remoteJid.endsWith('@g.us')) {
@@ -332,7 +332,7 @@ conn.ev.on('messages.delete', async (message) => {
 }
 
 app.get("/", (req, res) => res.sendFile(require('path').join(__dirname, "./index.html")));
-app.listen(port, () => console.log(`✅ Bhashi - Server Running...`));
+app.listen(port, () => console.log(`✅ SAHAS-MD - Server Running...`));
 setTimeout(() => {
     connectToWA()
 }, 4000);
