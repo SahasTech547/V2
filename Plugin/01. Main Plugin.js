@@ -79,7 +79,7 @@ const mono = "```"
           contextInfo: {
 
           forwardingScore: 999,
-          isForwarded: false,
+          isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
           newsletterJid: "120363333519565664@newsletter",
