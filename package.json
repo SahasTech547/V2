@@ -1,12 +1,12 @@
 {
-  "name": "BHASHI-MD",
+  "name": "SAHAS-MD",
   "version": "1.0.0",
-  "description": "BHASHI-MD MULTI DEVICE WHATSAPP BOT BY VISHWA MIHIRANGA AND BHASHITHA",
+  "description": "SAHAS-MD MULTI DEVICE WHATSAPP BOT BY SAHAS TECH",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name BHASHI-MD",
-    "stop": "pm2 stop BHASHI-MD",
-    "restart": "pm2 restart BHASHI-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SAHAS-MD",
+    "stop": "pm2 stop SAHAS-MD",
+    "restart": "pm2 restart SAHAS-MD"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
