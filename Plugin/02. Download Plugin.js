@@ -844,7 +844,7 @@ cmd({
                                                                   newsletterJid: "120363296605464049@newsletter",
                                                               },
                                                               externalAdReply: {
-                                                                  title: `Bhashi Gdrive Downloader`,
+                                                                  title: `SAHAS-MD Gdrive Downloader`,
                                                                   body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By SAHAS-MD Gdrive Information Search Engine`,
                                                                   thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
                                                                   sourceUrl: ``,
