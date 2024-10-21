@@ -3,7 +3,7 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "vS5iQLwS#VZhkc92RDmlhubborV48kFp97ozw_A2cr07PulvpAsQ",
+  SESSION_ID: process.env.SESSION_ID || "rKpX1IqY#M4idQSmLAmDs00Tmj3xPawx8_9x1RnNy1OtKBcENqhc",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
@@ -15,16 +15,16 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94786328485",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
   //========================================- OTHER - CONFIGS -=====================================================================
-  AUTO_VOICE: process.env.AUTO_VOICE || "false",
+  AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "false",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
-  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
+  ANTI_LINK: process.env.ANTILINK || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
+  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "SAHAS TECH",
