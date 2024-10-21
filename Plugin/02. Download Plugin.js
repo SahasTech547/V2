@@ -181,19 +181,18 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖲 𝖮 𝖭 𝖦  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+            let desc = `*乂 SAHAS-MD SONG DOWNLOADER*
 
 🎬 𝖢𝗁𝖺𝗇𝖾𝗅 : ${data.author.name}
 ⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
 📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
   
-乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+*乂 REPLY THE DOWNLOAD OPTION*  
 
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -204,12 +203,12 @@ cmd(
                         forwardingScore: 999,
                         isForwarded: false,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                            newsletterJid: "120363333519565664@newsletter",
+                            newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                            newsletterJid: "120363296605464049@newsletter",
                         },
                         externalAdReply: {
-                            title: `Bhashi Song Downloader`,
-                            body: `${data.title} : Powerd By Bhashi Song Information Search Engine`,
+                            title: `SAHAS-MD Song Downloader`,
+                            body: `${data.title} : Powerd By SAHAS-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -260,8 +259,7 @@ cmd(
                                 {
                                     audio: { url: downloadUrl },
                                     mimetype: "audio/mpeg",
-                                    caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                                 },
                                 { quoted: mek },
                             );
@@ -272,9 +270,8 @@ cmd(
                                 {
                                     document: { url: downloadUrl },
                                     mimetype: "audio/mpeg",
-                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp3`,
-                                    caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                    fileName: `ꜱᴀʜᴀꜱ-ᴍᴅ v1.0.0 | ${data.title}.mp3`,
+                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                                 },
                                 { quoted: mek },
                             );
@@ -350,20 +347,19 @@ cmd(
             const data = search.videos[0];
             const url = data.url;
 
-            let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖵 𝖨 𝖣 𝖤 𝖮  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+            let desc = `*乂 SAHAS-MD VIDEO DOWNLOADER*
 
 🎬 𝖢𝗁𝖺𝗇𝖾𝗅 : ${data.author.name}
 ⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 : ${data.timestamp}
 📆 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖮𝗇 : ${data.ago}
 
 
-乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+*乂 REPLY THE DOWNLOAD OPTION*
 
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖳𝗒𝗉𝖾.
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍 𝖳𝗒𝗉𝖾.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
 
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
@@ -372,14 +368,14 @@ cmd(
                     text: desc,
                     contextInfo: {
                         forwardingScore: 999,
-                        isForwarded: false,
+                        isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                            newsletterJid: "120363333519565664@newsletter",
+                            newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                            newsletterJid: "120363296605464049@newsletter",
                         },
                         externalAdReply: {
-                            title: `Bhashi Video Downloader`,
-                            body: `${data.title} : Powerd By Bhashi Song Information Search Engine`,
+                            title: `SAHAS-MD Video Downloader`,
+                            body: `${data.title} : Powerd By SAHAS-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
@@ -432,8 +428,7 @@ cmd(
                                     mimetype: "video/mp4",
                                     caption: `‎ ‎𝖸 𝖳  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉  )
                             ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                                 },
                                 { quoted: mek },
                             );
@@ -444,9 +439,9 @@ cmd(
                                 {
                                     document: { url: downloadUrl },
                                     mimetype: "video/mp4",
-                                    fileName: `ʙʜᴀꜱʜɪ v2.0.0 | ${data.title}.mp4`,
-                                    caption: `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+                                    fileName: `ꜱᴀʜᴀꜱ-ᴍᴅ V1.0.0 | ${data.title}.mp4`,
+                                    caption: `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+`,
                                 },
                                 { quoted: mek },
                             );
@@ -537,19 +532,18 @@ cmd(
                 if (hd || sd) {
 
                     // Prompt user to select HD or SD
-                    const videoMessage = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖥 𝖡  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+                    const videoMessage = `*乂 SAHAS-MD FB DOWNLOADER*
 
 🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.facebook.com
 
 
-乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+*乂 REPLY THE DOWNLOAD OPTION*
 
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾.
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖲𝖣 𝖳𝗒𝗉𝖾.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
 
 
 
@@ -559,17 +553,15 @@ cmd(
                             text: videoMessage,
                             contextInfo: {
                                 forwardingScore: 999,
-                                isForwarded: false,
+                                isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                                    newsletterJid:
-                                        "120363333519565664@newsletter",
+                                    newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                                    newsletterJid: "120363296605464049@newsletter",
                                 },
                                     externalAdReply: {
-                                          title: `Bhashi FB Downloader`,
-                                          body: `Undifended : Powerd By Bhashi Apk Information Search Engine`,
-                                          thumbnailUrl: `https://scontent.xx.fbcdn.net/v/t39.30808-6/462764198_1069447598136132_2931618262689600288_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHF_DdTFVKCMk4o9b4moBmBfO2n9KL2AN187af0ovYA3S3rE6-rviTKj0Xs3E2cDLPFIUL9Qempb874fyKOG9SS&_nc_ohc=mhCTkQH4HkoQ7kNvgEIPxAj&_nc_ht=scontent.xx&_nc_gid=AdAH9nyr7KupSEtPvuZ6p5q&oh=00_AYDDfmktwQmVzMPqB5v7E0rmaz0Jy1Vo27yDRm1BzgAURg&oe=670ED604`,
-
+                                          title: `SAHAS-MD FB Downloader`,
+                                          body: `Undifended : Powerd By SAHAS-MD FB Information Search Engine`,
+                                          thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
                                           sourceUrl:  ``,
                                           mediaType: 1,
                                           renderLargerThumbnail: false
@@ -602,8 +594,7 @@ cmd(
                                         video: { url: hd },
                                         caption: `‎ ‎𝖥 𝖡  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉 )
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
 
                                     },
                                     { quoted: mek },
@@ -615,8 +606,7 @@ cmd(
                                         video: { url: sd },
                                         caption: `‎ ‎𝖥 𝖡  𝖲 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 4 8 0 𝗉 )
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                                     },
                                     { quoted: mek },
 
@@ -706,13 +696,13 @@ cmd({
         if (!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝖬𝖾 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 `𝖳𝗂𝗄𝗍𝗈𝗄 𝖴𝗋𝗅` ❗");
 
         // Watermark message
-        let wm = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+        let wm = `*乂 SAHAS-MD TIK TOK DOWNLOADER*
 
 🎬 𝖳𝖺𝗍𝗂𝗅𝖾 : Undifended
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.tiktok.com
 
 
-乂  𝖱 𝖤 𝖯 𝖫 𝖸  𝖳 𝖧 𝖤  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣  𝖮 𝖯 𝖢 𝖳 𝖨 𝖮 𝖭
+*乂 REPLY THE DOWNLOAD OPTION*
 
 1️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖵𝗂𝖽𝖾𝗈 𝖧𝖣 𝖳𝗒𝗉𝖾. ( 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖶𝖺𝗍𝖾𝗋𝗆𝖺𝗋𝗄 )
 2️⃣  𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 : 𝖠𝗎𝖽𝗂𝗈 𝖳𝗒𝗉𝖾.
@@ -726,17 +716,15 @@ cmd({
                 text: wm,
                 contextInfo: {
                     forwardingScore: 999,
-                    isForwarded: false,
+                    isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                        newsletterJid:
-                            "120363333519565664@newsletter",
+                        newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                        newsletterJid: "120363296605464049@newsletter",
                     },
                         externalAdReply: {
-                              title: `Bhashi Tik Tok Downloader`,
-                              body: `Undifended : Powerd By Bhashi Tiktok Information Search Engine`,
-                              thumbnailUrl: `https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/348570787_801138717799708_4000097968399646220_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFVo3ExKnIkdIMrPA_un_HuEk2BiKbs4nESTYGIpuzicYhb7_P8-kYhfxc2j0FvSZ_qoE-he8h7cvy1JgbnqlrZ&_nc_ohc=nBzkctrHeFcQ7kNvgGcWRzd&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=AzVht253vu44kuofBwyas_z&oh=00_AYBQ3zecilTzgE1G1S4NXq5VcjDlLYw1PRzI5Wi8jVuAjw&oe=6711DE54`,
-
+                              title: `SAHAS-MD Tik Tok Downloader`,
+                              body: `Undifended : Powerd By SAHAS-MD Tiktok Information Search Engine`,
+                              thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
                               sourceUrl:  ``,
                               mediaType: 1,
                               renderLargerThumbnail: false
@@ -773,8 +761,7 @@ cmd({
                         video: { url: video }, 
                         caption: `‎ ‎𝖳 𝖨 𝖪 𝖳 𝖮 𝖪  𝖧 𝖣  𝖵 𝖨 𝖣 𝖤 𝖮  ( 7 2 0 𝗉  )
                             ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
 
                     }, { quoted: msg });
                 } else if (userReply === '2') {
@@ -843,24 +830,23 @@ cmd({
                                                   const downloadingMsg = await conn.sendMessage(
                                                       from,
                                                       {
-                                                          text: `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖦 𝖣 𝖱 𝖨 𝖵 𝖤  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+                                                          text: `*乂 SAHAS-MD GDRIVE DOWNLOADER*
 
 📁 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${fileInfo.fileSize}
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.gdrive.com
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                                                           contextInfo: {
                                                               forwardingScore: 999,
-                                                              isForwarded: false,
+                                                              isForwarded: true,
                                                               forwardedNewsletterMessageInfo: {
-                                                                  newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                                                                  newsletterJid: "120363333519565664@newsletter",
+                                                                  newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                                                                  newsletterJid: "120363296605464049@newsletter",
                                                               },
                                                               externalAdReply: {
                                                                   title: `Bhashi Gdrive Downloader`,
-                                                                  body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By Bhashi Gdrive Information Search Engine`,
-                                                                  thumbnailUrl: `https://z-p3-scontent.fcmb7-1.fna.fbcdn.net/v/t39.30808-6/463015953_1071579474589611_6711394064225755201_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHSbKBeAwrlZZhwPktYS9CL0HE2HwPk2MbQcTYfA-TYxm4MsnyFIrqekTg-Qi64dnaAhSVS1JvKwoWZT9LTk7rN&_nc_ohc=w7f7ObhjbGgQ7kNvgFle47F&_nc_zt=23&_nc_ht=z-p3-scontent.fcmb7-1.fna&_nc_gid=AEV-oItO4u1kBKqgS87-VBu&oh=00_AYClrCG_4lM7Ua3OBD9hzyHH4fI__jNkFv5DFCUCNhmxYQ&oe=6712948F`,
+                                                                  body: `${fileInfo.fileName || fileInfo.title || `Undifended`} : Powerd By SAHAS-MD Gdrive Information Search Engine`,
+                                                                  thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
                                                                   sourceUrl: ``,
                                                                   mediaType: 1,
                                                                   renderLargerThumbnail: false, 
@@ -901,8 +887,7 @@ cmd({
             return await conn.sendMessage(from, { react: { text: "⚠️", key: mek.key } });
         }
 
-        const caption = `> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`;
+        const caption = `> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
         await conn.sendMessage(from, { 
             document: { url: fileInfo.download || fileInfo.link || fileInfo.url }, 
             fileName: fileInfo.fileName || fileInfo.title, 
@@ -991,25 +976,24 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
 
 
 
-                text: `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖠 𝖯 𝖪  𝖣 𝖮 𝖶 𝖭 𝖫 𝖮 𝖠 𝖣 𝖤 𝖱
+                text: `*乂 SAHAS-MD APK DOWNLOADER*
 
 📁 𝖭𝖺𝗆𝖾 : ${apkName}
 📻 𝖥𝗂𝗅𝖾 𝖲𝗂𝗓𝖾 : ${apkSize} MB
 📆 𝖫𝖺𝗌𝗍 𝖴𝗉𝖽𝖺𝗍𝖾 : ${apkLastUpdate}
 🖇️ 𝖡𝖺𝗌𝖾 𝖴𝗋𝗅 : www.playstore.com
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`,
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`,
                 contextInfo: {
                     forwardingScore: 999,
-                    isForwarded: false,
+                    isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterName: "B H A S H I  M D  V 2  🧚🏻‍♀️",
-                        newsletterJid: "120363333519565664@newsletter",
+                        newsletterName: "👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ",
+                        newsletterJid: "120363296605464049@newsletter",
                     },
                     externalAdReply: {
-                        title: `Bhashi Application Downloader`,
-                        body: `${apkName} : Powerd By Bhashi Apk Information Search Engine`,
+                        title: `SAHAS-MD Application Downloader`,
+                        body: `${apkName} : Powerd By SAHAS-MD Apk Information Search Engine`,
                         thumbnailUrl: apkData.icon,
                         sourceUrl: ``,
                         mediaType: 1,
@@ -1053,8 +1037,8 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
             document: { url: filePath },
             mimetype: 'application/vnd.android.package-archive',
             fileName: `${apkName}.apk`,
-            caption: `ʙʜᴀꜱʜɪ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛`,
-            footer: 'ʙʜᴀꜱʜɪ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛'
+            caption: `ꜱᴀʜᴀꜱ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛`,
+            footer: 'ꜱᴀʜᴀꜱ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ-ᴡᴀ-ʙᴏᴛ ㋛'
         }, { quoted: mek });
 
         fs.unlinkSync(filePath);
