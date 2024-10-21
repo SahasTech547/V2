@@ -81,8 +81,8 @@ const mono = "```"
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
-          newsletterJid: "120363333519565664@newsletter",
+          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
               title: `Bhashi System Information`,
