@@ -58,14 +58,15 @@ const mono = "```"
           // Status message to be sent
         
           
-          let desc = `乂  𝖡 𝖧 𝖠 𝖲 𝖧 𝖨  𝖲 𝖸 𝖲 𝖳 𝖤 𝖬  𝖨 𝖭 𝖥 𝖮 𝖱 𝖬 𝖠 𝖳 𝖨 𝖮 𝖭
+          let desc = `乂 SAHAS-MD SYSTEM INFORMATION*
 
 *⏰ 𝖴𝗉𝗍𝗂𝗆𝖾 :* ${uptime}
 *📻 𝖯𝗅𝖺𝗍𝖿𝗈𝗋𝗆 :* ${platformName}
 *⚙️ 𝖱𝖺𝗆 𝖴𝗌𝖺𝗀𝖾 :* ${memoryUsage} MB / ${totalMemory} MB
+*👨‍💻 Owner :* Sahas Tech 
+*🤖 Version :* 1.0.0
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-> ʙʜᴀꜱʜɪ ᴍᴅ v2.0.0
-> ꜱɪᴍᴘʟᴇ ᴡᴀ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʙʜᴀꜱʜɪ ᴄᴏᴅᴇʀꜱ ㋛`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
 
        
 
@@ -85,9 +86,9 @@ const mono = "```"
           newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `Bhashi System Information`,
+              title: `SAHAS-MD System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://scontent.xx.fbcdn.net/v/t39.30808-6/462774155_1070176318063260_7885626192293860753_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFHpxIrQXPw8SXlfe8Xb44sGU2VrzO6Mf4ZTZWvM7ox_sS4NyMz9II2k-BaztFb9Oh-DIGAgHLjSEs4X-LJd0w2&_nc_ohc=wQaDghBEzEoQ7kNvgHzAcrQ&_nc_ht=scontent.xx&_nc_gid=AhAHYpsLDmGLORxK9w4HVMX&oh=00_AYDSR96jMuAwO4oMUzD1HjWYKZdLRKzTQ0-K3Kkn85vCxg&oe=671019B4`,
+              thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: false
@@ -177,7 +178,7 @@ cmd({
           contextInfo: {
 
           forwardingScore: 999,
-          isForwarded: false,
+          isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
           newsletterJid: "120363333519565664@newsletter",
@@ -275,15 +276,15 @@ cmd({
           contextInfo: {
 
           forwardingScore: 999,
-          isForwarded: false,
+          isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'B H A S H I  M D  V 2  🧚🏻‍♀️',
-          newsletterJid: "120363333519565664@newsletter",
+          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
+          newsletterJid: "120363296605464049@newsletter",
           },
           externalAdReply: {
-              title: `Bhashi Menu List`,
+              title: `SAHAS-MD Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://scontent.xx.fbcdn.net/v/t39.30808-6/462774155_1070176318063260_7885626192293860753_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFHpxIrQXPw8SXlfe8Xb44sGU2VrzO6Mf4ZTZWvM7ox_sS4NyMz9II2k-BaztFb9Oh-DIGAgHLjSEs4X-LJd0w2&_nc_ohc=wQaDghBEzEoQ7kNvgHzAcrQ&_nc_ht=scontent.xx&_nc_gid=AhAHYpsLDmGLORxK9w4HVMX&oh=00_AYDSR96jMuAwO4oMUzD1HjWYKZdLRKzTQ0-K3Kkn85vCxg&oe=671019B4`,
+              thumbnailUrl: `https://files.catbox.moe/de82e3.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: false
