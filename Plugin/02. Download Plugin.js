@@ -1051,6 +1051,9 @@ async (conn, mek, m, { from, reply, q, pushname }) => {
 
 
 //mediafire dl
+
+const { fetchJson } = require('../DATABASE/functions')
+
 cmd({
     pattern: "mediafire",
     alias: ["mfire"],
